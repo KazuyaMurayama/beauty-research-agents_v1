@@ -34,7 +34,7 @@ class ReportFormatter:
             gadget_response: 美容家電オタクの回答
             global_response: 海外美容トレンドハンターの回答
             evidence_response: 論文リサーチャーの回答
-            editor_response: 統括エディターの回答
+            editor_response: 統括エディターの統合分析（サマリー＋総合評価＋アクションプラン）
 
         Returns:
             フォーマットされたMarkdownレポート文字列
@@ -84,6 +84,12 @@ class ReportFormatter:
 ## 6. エビデンス・論文レビュー
 
 {evidence_response}
+
+---
+
+## 参考文献・出典
+
+各セクション内の引用・出典をご参照ください。
 
 ---
 

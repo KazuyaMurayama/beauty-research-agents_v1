@@ -2,7 +2,7 @@
 
 import os
 from pathlib import Path
-from unittest.mock import AsyncMock, MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 
@@ -117,6 +117,7 @@ class TestAgentConfiguration:
         assert agent.agent_name == "editor"
         assert agent.prompt_file == "editor.md"
         assert agent.uses_web_search is False
+        assert agent.max_tokens == 8192
 
     def test_missing_api_key_raises_error(self) -> None:
         """API キーが未設定の場合にエラーが発生することを確認"""
@@ -207,6 +208,7 @@ class TestReportFormatter:
         assert "美容家電・デバイス分析" in report
         assert "海外トレンド・グローバル知見" in report
         assert "エビデンス・論文レビュー" in report
+        assert "参考文献・出典" in report
         assert "免責事項" in report
 
     def test_format_report_contains_disclaimer(self) -> None:

@@ -1,5 +1,6 @@
 """ベースエージェントモジュール。全エージェントの共通ロジックを定義する。"""
 
+import asyncio
 import os
 from pathlib import Path
 
@@ -27,6 +28,7 @@ class BaseAgent:
     agent_name: str = "base"
     prompt_file: str = ""
     uses_web_search: bool = False
+    max_tokens: int = 4096
 
     def __init__(self) -> None:
         """BaseAgentを初期化する。"""
@@ -71,7 +73,7 @@ class BaseAgent:
             try:
                 response = await self._client.messages.create(
                     model=MODEL_NAME,
-                    max_tokens=4096,
+                    max_tokens=self.max_tokens,
                     system=self._system_prompt,
                     messages=[{"role": "user", "content": user_message}],
                 )
@@ -91,6 +93,9 @@ class BaseAgent:
     async def _perform_web_search(self, query: str) -> str:
         """Web検索を実行してコンテキスト情報を取得する。
 
+        Tavily APIは同期クライアントのため、asyncio.to_threadで
+        別スレッドに委譲してイベントループのブロックを防ぐ。
+
         Args:
             query: 検索クエリ
 
@@ -101,9 +106,9 @@ class BaseAgent:
             from src.tools.web_search import TavilySearchTool
 
             search_tool = TavilySearchTool()
-            # エージェントの専門性に合わせた検索クエリを生成
             search_query = self._build_search_query(query)
-            results = search_tool.search(search_query)
+            # 同期的なTavily APIを別スレッドで実行してイベントループをブロックしない
+            results = await asyncio.to_thread(search_tool.search, search_query)
             return search_tool.format_results(results)
         except Exception as e:
             print(f"[{self.agent_name}] Web検索エラー: {e}")

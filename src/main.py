@@ -6,6 +6,7 @@ import sys
 from dotenv import load_dotenv
 
 from src.orchestrator import Orchestrator
+from src.utils.report_formatter import ReportFormatter
 
 
 def main() -> None:
@@ -33,8 +34,15 @@ def main() -> None:
     orchestrator = Orchestrator()
     filepath = asyncio.run(orchestrator.run(query))
 
+    # レポートをGitHubにpushして直リンクを表示
+    formatter = ReportFormatter()
+    print("\n🚀 GitHubにアップロード中...")
+    github_url = formatter.push_and_get_github_url(filepath)
+
     print(f"\n{'='*60}")
     print(f"✅ レポートが生成されました: {filepath}")
+    if github_url:
+        print(f"\n📎 GitHub: {github_url}")
     print(f"{'='*60}")
 
 

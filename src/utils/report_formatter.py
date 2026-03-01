@@ -1,6 +1,7 @@
 """レポートフォーマッターモジュール"""
 
 import os
+import subprocess
 from datetime import datetime
 
 
@@ -118,3 +119,94 @@ class ReportFormatter:
             f.write(report)
 
         return filepath
+
+    def push_and_get_github_url(self, filepath: str) -> str | None:
+        """レポートをgit commit & pushし、GitHub上の直リンクを返す。
+
+        Args:
+            filepath: レポートファイルのパス
+
+        Returns:
+            GitHubのblobページURL。失敗時はNone。
+        """
+        try:
+            filename = os.path.basename(filepath)
+            # .gitignoreからoutput/*.mdを除外する必要がある場合は-fで強制add
+            subprocess.run(
+                ["git", "add", "-f", filepath],
+                check=True, capture_output=True, text=True,
+            )
+            subprocess.run(
+                ["git", "commit", "-m", f"report: {filename}"],
+                check=True, capture_output=True, text=True,
+            )
+
+            # ブランチ名を取得
+            branch_result = subprocess.run(
+                ["git", "branch", "--show-current"],
+                check=True, capture_output=True, text=True,
+            )
+            branch = branch_result.stdout.strip()
+
+            # push（リトライ付き）
+            pushed = False
+            for attempt in range(4):
+                result = subprocess.run(
+                    ["git", "push", "-u", "origin", branch],
+                    capture_output=True, text=True,
+                )
+                if result.returncode == 0:
+                    pushed = True
+                    break
+                import time
+                time.sleep(2 ** (attempt + 1))
+
+            if not pushed:
+                print("  ⚠ git push に失敗しました")
+                return None
+
+            # GitHub URLを構築
+            # remote URLからオーナー/リポ名を抽出
+            remote_result = subprocess.run(
+                ["git", "remote", "get-url", "origin"],
+                check=True, capture_output=True, text=True,
+            )
+            remote_url = remote_result.stdout.strip()
+
+            # URLパターン: .../git/OWNER/REPO or github.com/OWNER/REPO
+            owner, repo = self._parse_github_owner_repo(remote_url)
+            if owner and repo:
+                github_url = (
+                    f"https://github.com/{owner}/{repo}/blob/{branch}/{filepath}"
+                )
+                return github_url
+            return None
+        except Exception as e:
+            print(f"  ⚠ GitHub公開に失敗: {e}")
+            return None
+
+    @staticmethod
+    def _parse_github_owner_repo(remote_url: str) -> tuple[str, str]:
+        """git remote URLからオーナーとリポジトリ名を抽出する。
+
+        Args:
+            remote_url: git remote URL
+
+        Returns:
+            (owner, repo) のタプル。取得できない場合は空文字。
+        """
+        # http(s)://.../.../OWNER/REPO(.git)
+        # or git@github.com:OWNER/REPO.git
+        import re
+
+        # プロキシURL: http://...@.../git/OWNER/REPO
+        match = re.search(r"/git/([^/]+)/([^/\s]+?)(?:\.git)?$", remote_url)
+        if match:
+            return match.group(1), match.group(2)
+
+        # 標準GitHub URL: github.com/OWNER/REPO
+        match = re.search(r"github\.com[:/]([^/]+)/([^/\s]+?)(?:\.git)?$", remote_url)
+        if match:
+            return match.group(1), match.group(2)
+
+        return "", ""

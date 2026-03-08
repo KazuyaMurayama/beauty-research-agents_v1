@@ -45,6 +45,7 @@ python -m src.main
 - Markdown形式で `output/` ディレクトリに保存
 - ファイル名: `report_YYYYMMDD_HHMMSS.md`
 - 必ず免責事項を末尾に含める
+- **GitHubリンク必須:** レポート作成・更新時は、`output/research_summary_table.md` のレポート一覧にも追加し、GitHub上でワンクリックで開けるリンク（`[📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/<ブランチ名>/output/<ファイル名>)` 形式）を付与すること
 
 ## 海外製品・医薬品の取り扱いポリシー
 - 日本国内の選択肢に限定せず、海外製品・海外医薬品・海外治療法も積極的に候補に含める

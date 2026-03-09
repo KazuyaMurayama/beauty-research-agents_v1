@@ -17,7 +17,7 @@
 | 6 | 2026-03-03 | 美容医療施術比較（7施術：IPL/ルビー/CO2/HIFU/ピコ/ダーマペン/シルファームX） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_014509.md) |
 | 7 | 2026-03-03 | 美容医療施術比較【拡張版】（6施術） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_093406.md) |
 | 8 | 2026-03-07 | キメ上位10% × 毛穴下位30%の分析 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_skin_texture_pore_analysis.md) |
-| 9 | 2026-03-09 | ダーマペン4 徹底評価（15軸） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260309_062633.md) |
+| 9 | 2026-03-09 | 美容医療7施術 徹底比較（14軸：IPL/ルビー/CO2/ピコ/ダーマペン/シルファームX/HIFU） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260309_062633.md) |
 
 ---
 
@@ -33,7 +33,7 @@
 | 6 | 施術比較(7種) | 悩み別に最適施術が明確に分かれる | IPL（初心者向け、1回1.5-3万円） |
 | 7 | 施術比較(6種) | フラクショナルレーザーが総合1位（肌質根本改善） | ケノン（コスパ最強だが効果は医療の40-60%） |
 | 8 | キメ・毛穴分析 | キメ上位10%と毛穴下位30%の同時達成には真皮コラーゲン密度が鍵 | レチノール＋日焼け止め＋ナイアシンアミド（月3,000円） |
-| 9 | ダーマペン4評価 | ニキビ跡改善88点が最高評価、キメ82・毛穴80も優秀 | ダーマペン単体（1回2万円、レーザーの1/2-1/3のDT） |
+| 9 | 7施術比較(14軸) | シルファームXが総合1位（1058/1400）、ピコフラクショナル2位（1028） | IPL入門→ピコorシルファームXへステップアップ |
 
 ---
 
@@ -41,7 +41,7 @@
 
 レポート#6・#7・#9の統合結果（各軸100点満点）:
 
-> **スコア出典**: IPL〜シルファームXはレポート#6統括エディター評価、ダーマペン4はレポート#9（専門深堀り）、医療脱毛・ケノンはレポート#7（6エージェント平均）
+> **スコア出典**: 7施術（IPL〜HIFU）はレポート#6・#9の統括エディター評価、医療脱毛・ケノンはレポート#7（6エージェント平均）
 
 ### 美容効果7軸（肌質改善）
 

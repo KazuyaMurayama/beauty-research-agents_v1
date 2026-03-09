@@ -1,7 +1,7 @@
 # 調査レポート サマリー（表形式）
 
-> 生成日: 2026-03-04
-> 全7件のリサーチレポートを表形式で整理
+> 生成日: 2026-03-09
+> 全9件のリサーチレポートを表形式で整理
 
 ---
 
@@ -17,6 +17,7 @@
 | 6 | 2026-03-03 | 美容医療施術比較（4施術） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_014509.md) |
 | 7 | 2026-03-03 | 美容医療施術比較【拡張版】（6施術） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_093406.md) |
 | 8 | 2026-03-07 | キメ上位10% × 毛穴下位30%の分析 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_skin_texture_pore_analysis.md) |
+| 9 | 2026-03-09 | ダーマペン4 徹底評価（15軸） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260309_062633.md) |
 
 ---
 

@@ -14,7 +14,7 @@
 | 3 | 2026-03-01 | 成長期の身長最大化 | 0〜15歳 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260301_110614.md) |
 | 4 | 2026-03-02 | 白髪の予防・改善 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260302_011255.md) |
 | 5 | 2026-03-03 | 総合アンチエイジング戦略 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_005413.md) |
-| 6 | 2026-03-03 | 美容医療施術比較（4施術） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_014509.md) |
+| 6 | 2026-03-03 | 美容医療施術比較（7施術：IPL/ルビー/CO2/HIFU/ピコ/ダーマペン/シルファームX） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_014509.md) |
 | 7 | 2026-03-03 | 美容医療施術比較【拡張版】（6施術） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_093406.md) |
 | 8 | 2026-03-07 | キメ上位10% × 毛穴下位30%の分析 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_skin_texture_pore_analysis.md) |
 | 9 | 2026-03-09 | ダーマペン4 徹底評価（15軸） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260309_062633.md) |

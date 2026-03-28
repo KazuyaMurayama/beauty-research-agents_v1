@@ -1,7 +1,7 @@
 # 調査レポート サマリー（表形式）
 
-> 生成日: 2026-03-09
-> 全9件のリサーチレポートを表形式で整理
+> 生成日: 2026-03-28
+> 全10件のリサーチレポートを表形式で整理
 
 ---
 
@@ -18,6 +18,7 @@
 | 7 | 2026-03-03 | 美容医療施術比較【拡張版】（6施術） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_093406.md) |
 | 8 | 2026-03-07 | キメ上位10% × 毛穴下位30%の分析 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_skin_texture_pore_analysis.md) |
 | 9 | 2026-03-09 | 美容医療7施術 徹底比較（14軸：IPL/ルビー/CO2/ピコ/ダーマペン/シルファームX/HIFU） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260309_062633.md) |
+| 10 | 2026-03-28 | 内臓脂肪を減らす完全ガイド（薬剤・サプリ・食材・運動・習慣） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260328_120000.md) |
 
 ---
 
@@ -34,6 +35,7 @@
 | 7 | 施術比較(6種) | フラクショナルレーザーが総合1位（肌質根本改善） | ケノン（コスパ最強だが効果は医療の40-60%） |
 | 8 | キメ・毛穴分析 | キメ上位10%と毛穴下位30%の同時達成には真皮コラーゲン密度が鍵 | レチノール＋日焼け止め＋ナイアシンアミド（月3,000円） |
 | 9 | 7施術比較(14軸) | シルファームXが総合1位（1058/1400）、ピコフラクショナル2位（1028） | IPL入門→ピコorシルファームXへステップアップ |
+| 10 | 内臓脂肪 | チルゼパチドが内臓脂肪-40.1%で最強（SURMOUNT-1 DXA） | 睡眠改善＋間欠的断食＋ガセリ菌ヨーグルト（月0〜3千円） |
 
 ---
 

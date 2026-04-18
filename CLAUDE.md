@@ -15,7 +15,7 @@
 
 ## 技術スタック
 - Python 3.11+
-- Anthropic Claude API (claude-sonnet-4-5-20250929)
+- Anthropic Claude API (claude-sonnet-4-6)
 - Tavily API（Web検索: evidence, gadget, supplement_pharma, global の4エージェントで使用）
 - asyncio（6エージェント並列実行）
 
@@ -24,28 +24,64 @@
 - `src/agents/` - エージェント実装（base.pyで共通ロジック定義）
 - `src/tools/` - Web検索ツール
 - `src/utils/` - レポートフォーマッター等ユーティリティ
-- `output/` - 生成レポートの出力先
+- `output/` - 生成レポートの出力先（全11件）
+- `tasks.md` - タスク一元管理
+- `file_index.md` - 全ファイルインデックス
 
-## コード規約
+## 実行方法
+```bash
+pip install -e ".[dev]"
+python -m src.main
+```
+
+---
+
+## 運用ルール（Claude Code向け）
+
+### 1. 回答ルール
+- レスポンスは簡潔に。長文は避ける
+- 成果物（レポート等）は必ずGitHubハイパーリンクを付けて報告する
+- リンク形式: `[📄 ファイル名](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/ファイル名)`
+
+### 2. タスク管理
+- セッション開始時は `tasks.md` を必ず確認する
+- 作業はこまめにコミット（ファイル1〜2個単位）
+- タスク完了後は `tasks.md` を更新してコミット
+
+### 3. ファイルインデックス管理
+- ファイル追加・更新時は `file_index.md` を必ず更新する
+- セッション開始時は `file_index.md` で全体構成を確認する
+
+### 4. モデル使い分け
+- **計画・設計**: claude-opus-4-7（Opus）
+- **実装・リサーチ実行・Webサーチ**: claude-sonnet-4-6（Sonnet）
+
+### 5. Git操作ルール
+- Claude Codeセッションでは自動生成ブランチ（`claude/*`）で作業
+- 作業完了後はGitHubでPRを作成してmainにマージする
+- ブランチ名は `claude/` から始まりセッションIDで終わる形式を守る
+- **全ての成果物はmainにマージして集約すること**
+
+### 6. レポート出力仕様
+- Markdown形式で `output/` ディレクトリに保存
+- ファイル名: `report_YYYYMMDD_HHMMSS.md`
+- 必ず免責事項を末尾に含める
+- レポート作成・更新時は `output/research_summary_table.md` にも追加
+- GitHubリンク形式: `[📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/<ブランチ名>/output/<ファイル名>)`
+
+### 7. タイムアウト対策
+- 長大なファイル（300行超）は3分割して作成する
+  1. 前半: `Write` ツールで作成
+  2. 中盤: `Edit` ツールで追記
+  3. 後半: `Edit` ツールで追記
+
+### 8. コード規約
 - type hints必須
 - docstring必須
 - 日本語コメント推奨
 - テスト: pytest（`pytest tests/`）
 
-## 実行方法
-```bash
-# 依存インストール
-pip install -e ".[dev]"
-
-# 実行
-python -m src.main
-```
-
-## レポート出力仕様
-- Markdown形式で `output/` ディレクトリに保存
-- ファイル名: `report_YYYYMMDD_HHMMSS.md`
-- 必ず免責事項を末尾に含める
-- **GitHubリンク必須:** レポート作成・更新時は、`output/research_summary_table.md` のレポート一覧にも追加し、GitHub上でワンクリックで開けるリンク（`[📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/<ブランチ名>/output/<ファイル名>)` 形式）を付与すること
+---
 
 ## 海外製品・医薬品の取り扱いポリシー
 - 日本国内の選択肢に限定せず、海外製品・海外医薬品・海外治療法も積極的に候補に含める

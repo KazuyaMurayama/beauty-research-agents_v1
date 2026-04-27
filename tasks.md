@@ -25,7 +25,8 @@
 | 15 | tasks.md作成 | 2026-04-18 | 本セッション |
 | 16 | file_index.md作成 | 2026-04-18 | 本セッション（予定） |
 | 17 | レポート#12 施術後スキンケア再開タイミング完全ガイド | 2026-04-27 | `output/report_20260427_120000.md` |
-| 18 | レポート#13 スキンケア成分5種 効果・実効性スコアリング | 2026-04-27 | `output/report_20260427_140000.md` |
+| 18 | レポート#13 スキンケア成分5種 効果・実効性スコアリング（5軸版） | 2026-04-27 | `output/report_20260427_140000.md` |
+| 19 | レポート#14 スキンケア成分5種 10軸拡張版（ニキビ/赤み/保湿/皮脂/抗酸化追加） | 2026-04-27 | `output/report_20260427_160000.md` |
 
 ---
 
@@ -62,4 +63,5 @@
 | 10 | 内臓脂肪完全ガイド | report_20260328_120000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260328_120000.md) |
 | 11 | 花小金井クリニック全20施術比較 | report_20260331_120000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260331_120000.md) |
 | 12 | 施術後スキンケア再開タイミング完全ガイド | report_20260427_120000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_120000.md) |
-| 13 | スキンケア成分5種 効果・実効性スコアリング | report_20260427_140000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_140000.md) |
+| 13 | スキンケア成分5種 効果・実効性スコアリング（5軸版） | report_20260427_140000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_140000.md) |
+| 14 | スキンケア成分5種 10軸拡張版 | report_20260427_160000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_160000.md) |

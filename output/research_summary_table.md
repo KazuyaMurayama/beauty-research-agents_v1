@@ -1,6 +1,6 @@
 # 調査レポート サマリー（表形式）
 
-> 生成日: 2026-03-31
+> 生成日: 2026-04-27
 > 全11件のリサーチレポートを表形式で整理
 
 ---
@@ -9,17 +9,17 @@
 
 | # | 日付 | テーマ | 対象 | レポートを開く |
 |---|------|--------|------|:-------------:|
-| 1 | 2026-02-28 | 顔のリフトアップ | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260228_100613.md) |
-| 2 | 2026-02-28 | IPL比較（医療 vs 家庭用） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260228_214142.md) |
-| 3 | 2026-03-01 | 成長期の身長最大化 | 0〜15歳 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260301_110614.md) |
-| 4 | 2026-03-02 | 白髪の予防・改善 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260302_011255.md) |
-| 5 | 2026-03-03 | 総合アンチエイジング戦略 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_005413.md) |
-| 6 | 2026-03-03 | 美容医療施術比較（7施術：IPL/ルビー/CO2/HIFU/ピコ/ダーマペン/シルファームX） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_014509.md) |
-| 7 | 2026-03-03 | 美容医療施術比較【拡張版】（6施術） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_093406.md) |
-| 8 | 2026-03-07 | キメ上位10% × 毛穴下位30%の分析 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_skin_texture_pore_analysis.md) |
-| 9 | 2026-03-09 | 美容医療7施術 徹底比較（14軸：IPL/ルビー/CO2/ピコ/ダーマペン/シルファームX/HIFU） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260309_062633.md) |
-| 10 | 2026-03-28 | 内臓脂肪を減らす完全ガイド（薬剤・サプリ・食材・運動・習慣） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260328_120000.md) |
-| 11 | 2026-03-31 | 花小金井駅前スキンクリニック 全20施術比較（14軸） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260331_120000.md) |
+| 1 | 2026-02-28 | 顔のリフトアップ | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260228_100613.md) |
+| 2 | 2026-02-28 | IPL比較（医療 vs 家庭用） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260228_214142.md) |
+| 3 | 2026-03-01 | 成長期の身長最大化 | 0〜15歳 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260301_110614.md) |
+| 4 | 2026-03-02 | 白髪の予防・改善 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260302_011255.md) |
+| 5 | 2026-03-03 | 総合アンチエイジング戦略 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260303_005413.md) |
+| 6 | 2026-03-03 | 美容医療施術比較（7施術：IPL/ルビー/CO2/HIFU/ピコ/ダーマペン/シルファームX） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260303_014509.md) |
+| 7 | 2026-03-03 | 美容医療施術比較【拡張版】（6施術） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260303_093406.md) |
+| 8 | 2026-03-07 | キメ上位10% × 毛穴下位30%の分析 | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_skin_texture_pore_analysis.md) |
+| 9 | 2026-03-09 | 美容医療7施術 徹底比較（14軸：IPL/ルビー/CO2/ピコ/ダーマペン/シルファームX/HIFU） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260309_062633.md) |
+| 10 | 2026-03-28 | 内臓脂肪を減らす完全ガイド（薬剤・サプリ・食材・運動・習慣） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260328_120000.md) |
+| 11 | 2026-03-31 | 花小金井駅前スキンクリニック 全20施術比較（14軸） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260331_120000.md) |
 
 ---
 

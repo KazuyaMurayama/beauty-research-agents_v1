@@ -37,7 +37,7 @@
 
 ## 次回セッション用メモ
 
-- **現在のブランチ**: `claude/organize-research-table-VlDjI`
+- **現在のブランチ**: `main`
 - **mainへの集約**: このブランチのPRをGitHubでmainにマージすること
 - **全レポート**: 11件完成済み（`output/research_summary_table.md` 参照）
 - **次のテーマ候補**: ユーザーから新テーマが来たら着手
@@ -48,14 +48,14 @@
 
 | # | テーマ | ファイル | GitHubリンク |
 |---|--------|--------|-------------|
-| 1 | リフトアップ・フェイスライン | report_20260228_100613.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260228_100613.md) |
-| 2 | IPLマシン比較 | report_20260228_214142.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260228_214142.md) |
-| 3 | 身長最大化 | report_20260301_110614.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260301_110614.md) |
-| 4 | 白髪・薄毛対策 | report_20260302_011255.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260302_011255.md) |
-| 5 | 総合アンチエイジング | report_20260303_005413.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_005413.md) |
-| 6 | 美容医療7施術比較 | report_20260303_014509.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_014509.md) |
-| 7 | 施術比較拡張版 | report_20260303_093406.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260303_014509.md) |
-| 8 | キメ・毛穴分析 | report_skin_texture_pore_analysis.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_skin_texture_pore_analysis.md) |
-| 9 | 7施術14軸スコア比較 | report_20260309_062633.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260309_062633.md) |
-| 10 | 内臓脂肪完全ガイド | report_20260328_120000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260328_120000.md) |
-| 11 | 花小金井クリニック全20施術比較 | report_20260331_120000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/claude/organize-research-table-VlDjI/output/report_20260331_120000.md) |
+| 1 | リフトアップ・フェイスライン | report_20260228_100613.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260228_100613.md) |
+| 2 | IPLマシン比較 | report_20260228_214142.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260228_214142.md) |
+| 3 | 身長最大化 | report_20260301_110614.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260301_110614.md) |
+| 4 | 白髪・薄毛対策 | report_20260302_011255.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260302_011255.md) |
+| 5 | 総合アンチエイジング | report_20260303_005413.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260303_005413.md) |
+| 6 | 美容医療7施術比較 | report_20260303_014509.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260303_014509.md) |
+| 7 | 施術比較拡張版 | report_20260303_093406.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260303_014509.md) |
+| 8 | キメ・毛穴分析 | report_skin_texture_pore_analysis.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_skin_texture_pore_analysis.md) |
+| 9 | 7施術14軸スコア比較 | report_20260309_062633.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260309_062633.md) |
+| 10 | 内臓脂肪完全ガイド | report_20260328_120000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260328_120000.md) |
+| 11 | 花小金井クリニック全20施術比較 | report_20260331_120000.md | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260331_120000.md) |

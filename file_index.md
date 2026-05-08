@@ -1,6 +1,6 @@
 # ファイルインデックス
 
-最終更新: 2026-04-27  
+最終更新: 2026-05-08  
 ブランチ: `main`
 
 ---
@@ -87,6 +87,9 @@
 | 9 | `report_20260309_062633.md` | 美容医療7施術14軸スコア比較 | 2026-03-09 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260309_062633.md) |
 | 10 | `report_20260328_120000.md` | 内臓脂肪を減らす完全ガイド | 2026-03-28 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260328_120000.md) |
 | 11 | `report_20260331_120000.md` | 花小金井駅前スキンクリニック全20施術比較 | 2026-03-31 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260331_120000.md) |
+| 12 | `report_20260427_120000.md` | 施術後スキンケア再開タイミング完全ガイド（ルビーフラクショナル/シルファームX/医療脱毛 × 各成分） | 2026-04-27 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_120000.md) |
+| 13 | `report_20260427_140000.md` | スキンケア成分5種 効果・実効性スコアリング（5軸版） | 2026-04-27 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_140000.md) |
+| 14 | `report_20260427_160000.md` | スキンケア成分6種 効果・実効性スコアリング【10軸拡張版】＋4成分C(6,4)=15パターン全スコアリング | 2026-04-27 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_160000.md) |
 
 ---
 

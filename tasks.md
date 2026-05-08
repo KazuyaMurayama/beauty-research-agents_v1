@@ -43,7 +43,7 @@
 
 - **現在のブランチ**: `main`
 - **mainへの集約**: このブランチのPRをGitHubでmainにマージすること
-- **全レポート**: 11件完成済み（`output/research_summary_table.md` 参照）
+- **全レポート**: 14件完成済み（`output/research_summary_table.md` 参照）
 - **次のテーマ候補**: ユーザーから新テーマが来たら着手
 
 ---

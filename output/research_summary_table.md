@@ -1,7 +1,8 @@
 # 調査レポート サマリー（表形式）
 
 > 生成日: 2026-04-27
-> 全14件のリサーチレポートを表形式で整理
+> 最終更新日: 2026-05-28
+> 全15件のリサーチレポートを表形式で整理
 
 ---
 
@@ -23,6 +24,7 @@
 | 12 | 2026-04-27 | 施術後スキンケア再開タイミング完全ガイド（ルビーフラクショナル/シルファームX/医療脱毛×トレチノイン/ナイアシンアミド/ビタミンC/ヒルドイド/ケノン） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_120000.md) |
 | 13 | 2026-04-27 | スキンケア成分5種 効果・実効性スコアリング（5軸版） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_140000.md) |
 | 14 | 2026-04-27 | スキンケア成分5種 効果・実効性スコアリング【10軸拡張版】（ニキビ/赤み/保湿/皮脂/抗酸化を追加） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260427_160000.md) |
+| 15 | 2026-05-28 | 湘南美容クリニック（SBC）施術比較（5施術×14軸：シルファームX/水光ジュベラック/ジャルプロ/リジュラン/SilFirm X後ベビースキン） | 40代男性 | [📄 開く](https://github.com/KazuyaMurayama/beauty-research-agents_v1/blob/main/output/report_20260528_120000.md) |
 
 ---
 
